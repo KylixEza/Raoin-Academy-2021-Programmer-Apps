@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Raion Academy 2021</string>
+    <string name="dessert_sold">Dessert Sold</string>
+    <string name="amount_sell">12</string>
+    <string name="revenue">$92</string>
 </resources>

@@ -3,10 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/RaionAcademy2021/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2942708333333333" />
         <entry key="..\:/Users/SHIELD/AndroidStudioProjects/RaionAcademy2021/app/src/main/res/drawable/bakery_back.xml" value="0.2942708333333333" />
         <entry key="..\:/Users/SHIELD/AndroidStudioProjects/RaionAcademy2021/app/src/main/res/drawable/cupcake.xml" value="0.2942708333333333" />
         <entry key="..\:/Users/SHIELD/AndroidStudioProjects/RaionAcademy2021/app/src/main/res/drawable/white_box.xml" value="0.2942708333333333" />
-        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/RaionAcademy2021/app/src/main/res/layout/activity_main.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/RaionAcademy2021/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/SHIELD/AndroidStudioProjects/RaionAcademy2021/app/src/main/res/layout/example.xml" value="0.278125" />
         <entry key="..\:/Users/SHIELD/AndroidStudioProjects/RaionAcademy2021/app/src/main/res/layout/todo.xml" value="0.278125" />
       </map>
