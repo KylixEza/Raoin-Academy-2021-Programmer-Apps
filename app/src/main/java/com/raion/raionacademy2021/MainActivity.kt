@@ -17,29 +17,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var textViewTerjual : TextView
     private lateinit var textViewKeuntungan : TextView
 
-    data class Dessert(
-        val imageId : Int,
-        val harga : Int,
-        val minimumTerjual : Int
-    )
-
-    private val allDesserts = listOf(
-        Dessert(R.drawable.cupcake, 5, 0),
-        Dessert(R.drawable.donut, 10, 5),
-        Dessert(R.drawable.eclair, 15, 20),
-        Dessert(R.drawable.froyo, 30, 50),
-        Dessert(R.drawable.gingerbread, 50, 100),
-        Dessert(R.drawable.honeycomb, 100, 200),
-        Dessert(R.drawable.icecreamsandwich, 500, 500),
-        Dessert(R.drawable.jellybean, 1000, 1000),
-        Dessert(R.drawable.kitkat, 2000, 2000),
-        Dessert(R.drawable.lollipop, 3000, 4000),
-        Dessert(R.drawable.marshmallow, 4000, 8000),
-        Dessert(R.drawable.nougat, 5000, 16000),
-        Dessert(R.drawable.oreo, 6000, 20000)
-    )
-
-    private var kueSekarang = allDesserts[0]
+    private var kueSekarang = Dummy.getAllDesserts()[0]
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -94,8 +72,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showCurrentDessert() {
-        var newDessert = allDesserts[0]
-        for (dessert in allDesserts) {
+        var newDessert = Dummy.getAllDesserts()[0]
+        for (dessert in Dummy.getAllDesserts()) {
             if (terjual >= dessert.minimumTerjual) {
                 newDessert = dessert
             }
